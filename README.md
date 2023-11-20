@@ -12,4 +12,4 @@ Contains refined question asked of ChatGPT then subsequent work to fix OpenAPI s
 
 ## 3-tidy directory
 
-Contains a modified OpenAPI specification based on 2-chatgpt output which further improvements to the specification.
+Contains a modified OpenAPI specification based on 2-chatgpt output with further improvements to the specification.
