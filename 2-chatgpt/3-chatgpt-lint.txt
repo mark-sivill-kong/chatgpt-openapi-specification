@@ -1,0 +1,19 @@
+ℹ Using ruleset: oas, see https://meta.stoplight.io/docs/spectral/docs/reference/openapi-rules.md                               
+
+ FATAL  3 lint errors found.                                                                                                    
+
+
+
+ WARN  6 lint warnings found.                                                                                                   
+
+
+2:6 - Warning - info-contact - Info object must have "contact" object. - info                                                   
+16:9 - Error - oas3-schema - Property "contact" is not expected to be here. - contact                                           
+31:11 - Warning - operation-tag-defined - Operation tags must be defined in global tags. - paths./satellites.get.tags.0         
+47:11 - Warning - operation-tag-defined - Operation tags must be defined in global tags. - paths./satellites/{id}.get.tags.0    
+81:11 - Warning - operation-tag-defined - Operation tags must be defined in global tags. - paths./satellites/{id}/positions.get.tags.0
+128:11 - Warning - operation-tag-defined - Operation tags must be defined in global tags. - paths./satellites/{id}/tles.get.tags.0
+169:11 - Warning - operation-tag-defined - Operation tags must be defined in global tags. - paths./coordinates/{lat,lon}.get.tags.0
+171:11 - Error - path-params - Parameter "lat" must be used in path "/coordinates/{lat,lon}". - paths./coordinates/{lat,lon}.get.parameters.0
+177:11 - Error - path-params - Parameter "lon" must be used in path "/coordinates/{lat,lon}". - paths./coordinates/{lat,lon}.get.parameters.1
+Errors found, failing lint.

@@ -1,0 +1,24 @@
+ℹ Using ruleset: oas, see https://meta.stoplight.io/docs/spectral/docs/reference/openapi-rules.md                               
+
+ FATAL  2 lint errors found.                                                                                                    
+
+
+
+ WARN  11 lint warnings found.                                                                                                  
+
+
+2:6 - Warning - info-contact - Info object must have "contact" object. - info                                                   
+10:9 - Warning - operation-description - Operation "description" must be present and non-empty string. - paths./satellites.get  
+10:9 - Warning - operation-tags - Operation must have non-empty "tags" array. - paths./satellites.get                           
+24:9 - Warning - operation-description - Operation "description" must be present and non-empty string. - paths./satellites/{id}.get
+24:9 - Warning - operation-tags - Operation must have non-empty "tags" array. - paths./satellites/{id}.get                      
+55:9 - Warning - operation-description - Operation "description" must be present and non-empty string. - paths./satellites/{id}/positions.get
+55:9 - Warning - operation-tags - Operation must have non-empty "tags" array. - paths./satellites/{id}/positions.get            
+111:9 - Warning - operation-description - Operation "description" must be present and non-empty string. - paths./satellites/{id}/tles.get
+111:9 - Warning - operation-tags - Operation must have non-empty "tags" array. - paths./satellites/{id}/tles.get                
+142:9 - Warning - operation-description - Operation "description" must be present and non-empty string. - paths./coordinates/{lat,lon}.get
+142:9 - Warning - operation-tags - Operation must have non-empty "tags" array. - paths./coordinates/{lat,lon}.get               
+158:11 - Error - path-params - Parameter "lat" must be used in path "/coordinates/{lat,lon}". - paths./coordinates/{lat,lon}.get.parameters.0
+164:11 - Error - path-params - Parameter "lon" must be used in path "/coordinates/{lat,lon}". - paths./coordinates/{lat,lon}.get.parameters.1
+Errors found, failing lint.
+
