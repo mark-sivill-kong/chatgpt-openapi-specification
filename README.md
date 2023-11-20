@@ -1,6 +1,6 @@
 # ChatGPT generating OpenAPI specification experiments
 
-Supporting files for Kong blog "Using ChatGPT to reinvigorate APIs", which takes documentation from [Where the ISS at?](https://wheretheiss.at/w/developer) ([Wayback machine - Where the ISS at?]([)](https://web.archive.org/web/20230929033656/https://wheretheiss.at/w/developer)) and uses [ChatGPT](https://chat.openai.com/) to generate an [OpenAPI specification](https://www.openapis.org/).
+Supporting files for Kong blog "Using ChatGPT to reinvigorate APIs", which takes documentation from [Where the ISS at?](https://wheretheiss.at/w/developer) ([Wayback machine - Where the ISS at?](https://web.archive.org/web/20230929033656/https://wheretheiss.at/w/developer)]) and uses [ChatGPT](https://chat.openai.com/) to generate an [OpenAPI specification](https://www.openapis.org/).
 
 ## 1-chatgpt directory
 
